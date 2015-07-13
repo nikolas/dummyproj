@@ -1,0 +1,14 @@
+{
+  "name": "dummyproj",
+  "version": "0.1.0",
+  "description": "dummyproj",
+  "license": "GPL-2.0+",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "amdefine": "^1.0.0",
+    "mocha": "~2.2.5",
+    "requirejs": "~2.1.19"
+  }
+}
