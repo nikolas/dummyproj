@@ -95,6 +95,7 @@ MIDDLEWARE_CLASSES = (
     'impersonate.middleware.ImpersonateMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
     'waffle.middleware.WaffleMiddleware',
+    'courseaffils.middleware.CourseManagerMiddleware',
 )
 
 ROOT_URLCONF = 'dummyproj.urls'
@@ -134,6 +135,7 @@ INSTALLED_APPS = [
     'quizblock',
     'gunicorn',
     'storages',
+    'courseaffils',
     'dummyproj.main',
 ]
 
